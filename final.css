@@ -1,5 +1,11 @@
 /*This is the CSS page for our final template.*/
- 
+p{
+	font-size:20px ;
+	font-family: unset;
+	margin-right: 10%;
+	margin-left: 10%;
+	color: darkblue;
+}
  
 .footer p { /* This is how you add styles for only the p text within the footer. */
 	background-color: #cccccc;
@@ -12,24 +18,36 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Times New roman', serif;
-	background-color: darkblue;
-	color: greenyellow;
+	font-family: times new roman;
+	background-color: beige;
+	color: darkblue;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: .05%;
 	}
 .grad {
 
 }
 
+
 }
 h4 {
 	font-style: italic;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Georgia', serif;
 }
 h3 {
-	font-size: 10px;
-
+	font-size: 30px;
+	margin-left: 10%;
+ 
 }
+
+h5 {
+	background-color: darkblue;
+	font-size: 30px;
+	color: ghostwhite;
+}
+
 img {
 	height: 100px;
 	width: 250px;
@@ -42,12 +60,20 @@ img {
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
- .list {
+.footer	p {
+		font-size: 50px;
+		background-color: orangered;
+	}
+ .list p {
  	float: none;
  	min-width: 90%;
  	margin-left: 10px;
  	margin-bottom: 30px;
  	margin-top: 30px;
+ 	border: 2px darkgray solid;
+ }
+ img {
+ 	float: none;
  }
  iframe {
  	min-width: 90%;
